@@ -1,0 +1,70 @@
+<!-- NoobScience -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://kutt.it/ns_favicon" type="image/x-icon">
+    <title>RanPack</title>
+</head>
+<nav>
+	<div class="nav">
+		<li class="nav_item"><a href="https://newtoallofthis123.github.io/ranpack" class="nav_title" id="demo" target="_blank"></a></li>
+		<li class="nav_item"><a href="https://github.com/newtoallofthis123/ranpack" class="nav_link" target="_blank">GitHub</a></li>
+		<li class="nav_item"><a href="https://github.com/newtoallofthis123/ranpack/releases" class="nav_link">Download</a></li>
+		<li class="nav_item"><a href="mailto:noobscience123@gmail.com" class="nav_link" target="_blank">Contact</a></li>
+	</div>
+</nav>
+<body>
+	<hr>
+	<p class="content">RanPack is a customizable rainmeter skin. It includes over 10 different usefull widgets like a:</p>
+	<li class="content">Battery Monitor</li>
+	<li class="content">Digital Clock</li>
+	<li class="content">Fancy Time and Date Clock</li>
+	<li class="content">Launcher</li>
+	<li class="content">Quick Links</li>
+	<li class="content">Title</li>
+	<li class="content">Icon</li>
+	<li class="content">System Monitor</li>
+	<li class="content">Network Monitor</li>
+	<li class="content">Disk Usage Statistics</li>
+	<li class="content">Recycle Bin Manager</li>
+	<p class="content">Ranpack also comes with a random joke widget which generates random jokes when you run the rainmeter_joke.exe included in the <a href="https://github.com/newtoallofthis123/ranpack/releases" target="_blank" class="link">releases</a> page. After running rainmeter_joke.exe, refresh the widget for a new joke.</p>
+	<div class="img_div"><img src="assets/ranpack_example_1_full.png" alt="RanPack Full Example" class="img"></div>
+	<p class="content">RanPack is very customizable and doesn't come with a defalut layout. It is up you. You can take inspiration from the provided <a href="docs/screenshots.html" class="link">examples</a>.</p>
+	<h1 class="heading">Installation</h1>
+	<p class="content">RanPack comes as a normal rmskin and a full zip file with the rmskin and the rainmeter_joke.exe. You can also get the direct skins by just cloning the repository.</p>
+	<h1 class="heading">Watch the video below to learn more</h1>
+	<video width="800" height="480" autoplay controls>
+	  <source src="assets/ranpack_v.0.1.mp4" type="video/mp4">
+	  <source src="assets/ranpack_v.0.1.ogg" type="video/ogg">
+	Your browser does not support the video tag.
+	</video>
+	<h1 class="heading">Hope you enjoying using it</h1>
+	<hr>
+    <script>
+        var i = 0;
+        var txt = 'RanPack';
+        var speed = 100; 
+
+        function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+        }
+        typeWriter()
+    </script>
+</body>
+<footer>
+	<div class="nav">
+		<li class="nav_item"><a href="https://newtoallofthis123.github.io/About" class="nav_link"target="_blank">&copyNoobScience</a></li>
+		<li class="nav_item"><a href="https://github.com/newtoallofthis123" class="nav_link" target="_blank">GitHub</a></li>
+		<li class="nav_item"><a href="https://www.youtube.com/channel/UCbYWy7rhUhToM3tbw-Z3SnQ" class="nav_link" target="_blank">Youtube</a></li>
+		<li class="nav_item"><a href="mailto:noobscience123@gmail.com" class="nav_link" target="_blank">Contact</a></li>
+	</div>
+</footer>
+</html>
